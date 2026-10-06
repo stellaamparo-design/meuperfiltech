@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>meuperfiltech</title>
+</head>
+<body>
+    <div class="forms">
+        <h1>Meu Perfil Tech</h1>
+        <p>Descubra qual área da tecnologia combina com você!</p>
+        <label for="nomeuser">Seu nome:</label>
+        <input type="text" placeholder="Digite seu nome" id="nomeuser"> 
+
+        <h2>1. O que você prefere fazer:</h2>
+        <select id="to-do">
+            <option value="">Escolha uma opção:</option>
+            <option value="programador">Programar</option>
+            <option value="designer">Criar imagens</option>
+            <option value="jogos">Criar jogos</option>
+            <option value="ia">Trabalhar com IA</option>
+        </select>
+
+        <h2>2. Qual atividade parece mais interessante?</h2>
+        <select id="interessante">
+            <option value="">Escolha uma opção:</option>
+            <option value="programador">Resolver problemas</option>
+            <option value="designer">Criar algo visual</option>
+            <option value="jogos">Criar personagens</option>
+            <option value="ia">Descobrir padrões</option>
+        </select>
+
+        <h2>3. Qual dessas áreas chama mais atenção?</h2>
+        <select id="atenção">
+            <option value="">Escolha uma opção:</option>
+            <option value="programador">Programação</option>
+            <option value="designer">Design</option>
+            <option value="jogos">Games</option>
+            <option value="ia">Inteligência Artificial</option>
+        </select>
+
+        <h2>4. Você se considera uma pessoa...</h2>
+        <select id="pessoa">
+            <option value="">Escolha uma opção:</option>
+            <option value="programador">lógica</option>
+            <option value="designer">criativa</option>
+            <option value="jogos">imaginativa</option>
+            <option value="ia">curiosa</option>
+        </select>
+
+        <h2>5. Qual projeto você gostaria de criar?</h2>
+        <select id="projeto">
+            <option value="">Escolha uma opção:</option>
+            <option value="programador">Um aplicativo</option>
+            <option value="designer">Um site visual</option>
+            <option value="jogos">Desenvolver um jogo</option>
+            <option value="ia">Um sistema inteligente</option>
+        </select>
+
+        <button onclick="descperfil()">Descobrir meu perfil</button>
+        <div id="resultado"></div>
+        <script src="script.js"></script>
+    </div>
+
+</body>
+</html>
